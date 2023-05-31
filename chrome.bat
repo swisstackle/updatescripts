@@ -1,5 +1,8 @@
 @echo off
 setlocal
+REM Uninstall Google Chrome
+echo Uninstalling Google Chrome...
+WMIC PRODUCT WHERE "Name like 'Google Chrome%'" CALL UNINSTALL /nointeractive
 
 REM Define the URL from where to download the Google Chrome MSI installer
 set "url=https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
@@ -9,7 +12,7 @@ set "installerPath=%TEMP%\GoogleChromeStandaloneEnterprise.msi"
 
 REM Download the Google Chrome MSI installer
 echo Downloading Google Chrome...
-powershell -Command "Invoke-WebRequest -Uri %url% -OutFile %installerPath%"
+powershell -NonInteractive -Command "Invoke-WebRequest -Uri %url% -OutFile %installerPath% -UseBasicParsing"
 
 REM Install Google Chrome
 echo Installing Google Chrome...
