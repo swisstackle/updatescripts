@@ -5,7 +5,12 @@ powershell -Command "Invoke-WebRequest -OutFile notepadppInstaller.exe -Uri http
 REM Uninstall Notepad++
 if exist C:\Program Files (x86)\Notepad++\uninstall.exe (
 start /wait "" "C:\Program Files (x86)\Notepad++\uninstall.exe" /S
+) ELSE (
+    IF exist C:\Program Files\Notepad++\uninstall.exe (
+        start /wait "" "C:\Program Files\Notepad++\uninstall.exe" /S
+    )
 )
+
 
 REM Pause the script for a while to make sure the uninstaller completes
 timeout /t 10
