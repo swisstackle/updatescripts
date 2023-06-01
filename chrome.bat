@@ -1,8 +1,11 @@
 @echo off
 setlocal
 REM Uninstall Google Chrome
-echo Uninstalling Google Chrome...
-WMIC PRODUCT WHERE "Name like 'Google Chrome%'" CALL UNINSTALL /nointeractive
+echo Uninstalling Chrome with setup exe
+if exist C:\Program Files\Google\Chrome\Application\*\Installer\setup.exe (
+powershell -ExecutionPolicy Unrestricted -NonInteractive -Command "Start-Process 'C:\Program Files\Google\Chrome\Application\*\Installer\setup.exe' -ArgumentList '--uninstall --multi-install --chrome --system-level --force-uninstall' -Wait"
+)
+REM WMIC PRODUCT WHERE "Name like 'Google Chrome%'" CALL UNINSTALL /nointeractive
 REM Define the URL from where to download the Google Chrome MSI installer
 set "url=https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi"
 REM Define the path where the installer will be downloaded
