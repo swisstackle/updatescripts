@@ -23,8 +23,8 @@ Select all computers and thawn them to get ready for installation.
 
 ## Installation
 For each program, you will use the `push and launch` function. To select the `push and launch` function, select all computers and right click -> push and launch.
-For each program, you will have to fetch the latest installer from the internet.
-Use the following paramters for the corresponding programs
+For each program, you will have to fetch the latest installer from the internet into the Deep Freeze VM.
+Use the following paramters for the corresponding programs.
 
 ### Chrome browser
 File path: path\to\installer.exe
