@@ -4,7 +4,7 @@
 Select all coputers and Freeze them. Deep Freeze will automatically thawn the computers to apply the batch file.
 
 ## Uninstallations
-Most of the programs (with the exception of Zoom, have to be uninstalled and reinstalled in order to be updated)
+Most of the programs (with the exception of Zoom), have to be uninstalled and reinstalled in order to be updated)
 In the Deepfreeze Console:
 * Go to Tools -> Configuration Administrator
 * Go to Batch File -> Import and impirt the all.bat file
