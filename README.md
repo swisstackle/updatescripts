@@ -57,3 +57,8 @@ Arguments: /S
 Select all computers and Freeze them.
 
 If somebody can find an installer and uninstaller for respondus that supports silent installation / uninstallation, that would be great. I am also not certain why the InstallShield argument '/r' to create an .iss response file doesnt work with it. This coud be explored. If this is panish to you, dont worry about it. Mainly for Brian.
+
+
+# Office Update
+Office19.exe is too large to be pushed and launched via the regular `push and launch` function.
+On each computer, there needs to be a local directory made to put the office19.exe file in, and then the `office.bat` file can be edited so that it executes the office19.exe file. After that, the bat file can be pushed via the configuration file.
