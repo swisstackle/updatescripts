@@ -1,0 +1,1 @@
+"%appdata%\Zoom\bin\Zoom_launcher.exe"
