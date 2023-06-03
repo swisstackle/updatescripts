@@ -16,7 +16,7 @@ In the Deepfreeze Console:
 
 Wait until task finished
 
-If one or more programs have not been uninstalled, double if the file paths in `all.bat` exist, in case something has changed.
+If one or more programs have not been uninstalled, double check if the file paths in `all.bat` exist, in case something has changed.
 
 ## Thawn
 Select all computers and thawn them to get ready for installation.
