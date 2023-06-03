@@ -57,7 +57,7 @@ Arguments: `/S`
 ## Freeze
 Select all computers and Freeze them.
 
-If somebody can find an installer and uninstaller for respondus that supports silent installation / uninstallation, that would be great. I am also not certain why the InstallShield argument '/r' to create an .iss response file doesnt work with it. This coud be explored. If this is panish to you, dont worry about it. Mainly for Brian.
+If somebody can find an installer and uninstaller for respondus that supports silent installation / uninstallation, that would be great. I am also not certain why the InstallShield argument '/r' to create an .iss response file doesnt work with it. This coud be explored.
 
 
 # Office Update
