@@ -8,5 +8,6 @@ setlocal
 "C:\Program Files\Notepad++\uninstall.exe" /S
 "C:\Program Files (x86)\Notepad++\uninstall.exe" /S
 "C:\Program Files\Mozilla Firefox\uninstall\helper.exe" /S
-"C:\Program Files\Google\Chrome\Application\*\Installer\setup.exe" --uninstall --multi-install --chrome --system-level --force-uninstall
-"C:\Program Files (x86)\Google\Chrome\Application\*\Installer\setup.exe" --uninstall --multi-install --chrome --system-level --force-uninstall
+
+powershell -ExecutionPolicy Unrestricted -NonInteractive -Command "Start-Process 'C:\Program Files (x86)\Google\Chrome\Application\*\Installer\setup.exe' -ArgumentList '--uninstall --multi-install --chrome --system-level --force-uninstall' -Wait"
+powershell -ExecutionPolicy Unrestricted -NonInteractive -Command "Start-Process 'C:\Program Files\Google\Chrome\Application\*\Installer\setup.exe' -ArgumentList '--uninstall --multi-install --chrome --system-level --force-uninstall' -Wait"
