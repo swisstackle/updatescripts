@@ -27,32 +27,32 @@ For each program, you will have to download the latest installer from the intern
 Use the following paramters for the corresponding programs.
 
 ### Chrome browser
-File path: path\to\installer.exe
-Arguments: None
+File path: `path\to\installer.exe`
+Arguments: `None`
 
 ### Firefox browser
-File path: path\to\installer.exe
-Arguments: None
+File path: `path\to\installer.exe`
+Arguments: `None`
 
 ### VLC Media Player
-File path: path\to\installer.exe
-Arguments: /S
+File path: `path\to\installer.exe`
+Arguments: `/S`
 
 ### Zoom
 Automatically updated through `all.bat` file.
 
 ### Notepad++
-File Path: path\to\installer.exe
-Arguments: /S
+File Path: `path\to\installer.exe`
+Arguments: `/S`
 
 ### Zotero
-File Path: path\to\installer.exe
-Arguments: /S
+File Path: `path\to\installer.exe`
+Arguments: `/S`
 
 ### Dell Support Assistant
-File Path: C:\Users\Faronics\Desktop\batch scripts\Dell-Command-Update-Application_8D5MC_WIN_4.3.0_A00_02.EXE
+File Path: `C:\Users\Faronics\Desktop\batch scripts\Dell-Command-Update-Application_8D5MC_WIN_4.3.0_A00_02.EXE`
 
-Arguments: /S
+Arguments: `/S`
 
 ## Freeze
 Select all computers and Freeze them.
